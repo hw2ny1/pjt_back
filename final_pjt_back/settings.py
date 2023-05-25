@@ -25,7 +25,9 @@ SECRET_KEY = 'django-insecure-kdq56=4^@eo5)-0=5*^a2^gb+@47&(q%@f-md=r)p^gk#)a#cf
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    ".ap-northeast-2.compute.amazonaws.com"
+]
 
 REST_AUTH = {
     'SESSION_LOGIN':False
